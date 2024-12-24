@@ -26,7 +26,7 @@ repo.index.add([file_path])
 commit_message = 'Updated example.txt'
 repo.index.commit(commit_message)
 
-# Push the change to the remote repository
+# Push the change to the remote r
 origin = repo.remote(name='origin')
 origin.push()
 
