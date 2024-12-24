@@ -30,4 +30,4 @@ repo.index.commit(commit_message)
 origin = repo.remote(name='origin')
 origin.push()
 
-print(f"Changes pushed to {repo_url} on branch {branch_name}")
+print(f"Changes pushed to {repo_url} on branch {branch_nae}")
